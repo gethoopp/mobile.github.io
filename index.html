@@ -19,7 +19,7 @@
     .car {
         position: absolute;
         margin-top: 89px;
-        margin-left: 62px;
+        margin-left: 46px;
         height: 418px ;
         width: 257px ;
         border: 1 px  solid black;
@@ -45,7 +45,7 @@
         margin-left: -1px;
         width: 260px;
         height: 138px;
-        border-top-left-radius: 16px;
+        border-top-left-radius: 9px;
         border-top-right-radius: 16px;
     }
     p.ISI {
@@ -66,8 +66,8 @@ img.icon {
     border: 0px  solid black;
     position: absolute;
     margin-top: 267px;
-    margin-left: 27px;
-    width: 194px;
+    margin-left: 22px;
+    width: 211px;
     background-color: aliceblue;
     opacity: 2.5;
     height: 52px;
@@ -81,7 +81,55 @@ img.icon {
     height: 36px;
 }
 
+span {
+    font-size: 12px;
+    font-weight: 900;
+    margin-left: 67px;
+    font-family: poppins;
+    position: absolute;
+    margin-top: 10px;
 }
+
+p.price {
+    font-size: 10px;
+    margin-left: 75px;
+    margin-top: 25px;
+}
+
+p.link {
+    font-size: 11px;
+    margin-left: 158px;
+    margin-top: -36px;
+    color: rgb(40, 6, 192);
+    font-weight: 900;
+    text-decoration: none;
+}
+
+input[type="button"] {
+    position: absolute;
+    margin-top: 327px;
+    margin-left: 30px;
+    width: 200px;
+    background-color: rgba(77, 46, 190, 0.438);
+    border: none;
+    border-radius: 7px;
+    box-shadow: none;
+}
+input[type="button"]:hover{
+    box-shadow: blueviolet ;
+    background-color: rgb(79, 24, 209);
+    
+}
+label {
+    position: absolute;
+    margin-top: 328px;
+    margin-left: 70px;
+    color: white;
+    font-size: 13px;
+}
+
+}
+
 
 @media(min-width:1000px) and (max-width:1400px){
     html , body {
@@ -157,6 +205,55 @@ img.icon {
     margin-left: 16px;
     height: 36px;
 }
+ 
+span {
+    font-size: 12px;
+    font-weight: 900;
+    margin-left: 67px;
+    font-family: poppins;
+    position: absolute;
+    margin-top: 10px;
+}
+
+p.price {
+    font-size: 10px;
+    margin-left: 75px;
+    margin-top: 25px;
+}
+
+p.link {
+    font-size: 11px;
+    margin-left: 147px;
+    margin-top: -40px;
+    color: rgb(40, 6, 192);
+    font-weight: 900;
+    text-decoration: none;
+}
+input[type="button"] {
+    position: absolute;
+    margin-top: 327px;
+    margin-left: 30px;
+    width: 200px;
+    background-color: rgba(77, 46, 190, 0.438);
+    border: none;
+    border-radius: 7px;
+    box-shadow: none;
+    cursor: pointer;
+}
+input[type="button"]:hover{
+    box-shadow: blueviolet ;
+    background-color: rgb(79, 24, 209);
+    
+}
+label {
+    position: absolute;
+    margin-top: 328px;
+    margin-left: 70px;
+    color: white;
+    font-size: 13px;
+}
+
+
 }
     
 
@@ -172,8 +269,15 @@ img.icon {
         </p>
     <div class="icon1">
         <img class="icon" src="ASSETS/icon-music.svg" alt="icon music">
+       <span>Annual Plan</span>
+       <p class="price">$59.99/year</p>
+      <a href="#"><p class="link">CHANGE</p> </a>
+   
     </div>
-    </div>
+    
+    <input type="button" placeholder="procced to payment" aria-label="procced">
+    <label>Procced to payment</label>
+</div>
      
       
          
